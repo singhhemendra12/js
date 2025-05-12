@@ -37,5 +37,31 @@ console.log(typeof outsideTemp);
 console.log(typeof id);
 
 
-
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+let myHomeAddress ="Udaipur";
+
+let myOfficeAddress = myHomeAddress;
+myOfficeAddress = "Bengaluru";
+
+console.log(myHomeAddress);
+
+console.log(myOfficeAddress);
+
+let userOne = {
+    name: "honey",
+    age: 36,
+};
+let userTwo = userOne;
+
+userOne.name = "viraj";
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
+
+
+
+
